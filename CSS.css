@@ -1,0 +1,402 @@
+ 
+  * {   margin:0;
+        padding:0;  }
+    body {
+  
+  background-color: rgba(147, 199, 51, 0);
+  margin: 0px;
+  padding: 0px;
+    }   
+  .Section-2{
+       
+        padding:0;
+    }
+    
+    .video-container {
+        position:relative;
+        padding-bottom:56.25%;
+        padding-top:30px;
+        height:0;
+        overflow:hidden;
+    }
+    
+    .video-container iframe, .video-container object, .video-container embed {
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+    }
+    body .parallax-container-1 {
+
+        height: 100%;
+        width: 100%;
+      background-attachment: fixed;
+      background-position: top;
+      background-repeat: no-repeat;
+      background-size: cover;  
+      background-image: url("images/Contact_1.jpg");
+   
+      opacity: 1.0;
+    }    
+    body .CV-container {
+
+        height: auto;
+        width: 100%;
+        padding: -10%;
+   
+    }    
+    .contact-form{
+background-color: rgb(255, 255, 255);
+padding:5%;
+        border-radius: 3px;
+
+    }
+    .container-4{
+    background-color: rgba(255, 255, 255, 0.2)1;
+
+    }
+    body .parallax-container-1 h3{
+        font-family:  50px Mansalva;
+    }
+    body .parallax-container-1 h5{
+    font: 35px 'Khand', sans-serif;
+    text-align: left;
+    }
+    .parallax-container{
+        box-align: bottom;
+        
+    }
+    .container-5{
+    
+    background-image: url("images/space.jpg");
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    margin-top:-50px;
+    }
+    .abilities{
+    
+        color:white;
+        margin-top:-50px;  
+        padding-top: -50px;  
+       padding-bottom: 20px;
+       font-size: 1.2em;
+    }
+.video-life{
+
+    position: center;
+    width: 100%;
+    height: 100%;
+    z-index: -50;
+}
+body h2{
+text-align: center;
+font-weight: thin;
+
+}
+body .card-title{
+    text-align: left;
+    font-weight: bold;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+body .container-1{
+background-color: rgba(0, 0, 0,0);
+}
+body .card-content p{
+    font-family: 'Gudea', sans-serif;
+    font: 30px;
+
+}
+.card-action a{
+    color:rgb(255, 81, 81);
+    font-weight: bold;
+}
+.container-9{
+    background-image: url("images/space.jpg");
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+}
+strong {
+    font-weight: bold;
+  }
+ nav .badge{
+      position: relative;
+      top: 20px;
+      right:35px;
+    }
+   
+nav ul li a{
+        color: black;
+    }   
+nav .brand-logo{
+        color: black;
+    }  
+    
+ .navbar-fixed{
+      /*  background-color: rgb(255, 81, 81);*/
+        margin:0;
+        padding:0; 
+    }
+    .container-3{
+        padding:-200px;
+    }
+    .page-footer{
+background-color: white;
+}
+
+.link-list a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 81, 81);
+}
+footer .row-2 h6{
+        font-family: 'Nanum Pen Script', cursive;
+        font-size: 3rem;
+        color: black;
+        text-align: right;
+        margin-bottom: 20px;
+        padding-bottom: -50px;
+        bottom: 0;
+        
+}
+@media screen and (max-width: 1000px) { /* tablet */ 
+
+      footer .row-2 h6{
+       text-align: center;
+   }
+  
+  }
+
+
+.label-container{
+	position:fixed;
+	bottom:48px;
+	right:105px;
+	display:table;
+	visibility: hidden;
+}
+
+.label-text{
+	color:#FFF;
+	background:rgba(51,51,51,0.5);
+	display:table-cell;
+	vertical-align:middle;
+	padding:10px;
+	border-radius:3px;
+}
+
+.label-arrow{
+	display:table-cell;
+	vertical-align:middle;
+	color:#333;
+	opacity:0.5;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:rgb(255, 81, 81);
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    z-index:1000;
+    animation: bot-to-top 2s ease-out;
+  
+  
+}
+
+.row-2{
+    text-align: right;
+}
+
+.floating-btn ul{
+	position:fixed;
+	right:40px;
+	padding-bottom:20px;
+	bottom:80px;
+	z-index:100;
+}
+
+.floating-btn ul li{
+	list-style:none;
+	margin-bottom:10px;
+}
+
+.floating-btn ul li a{
+	background-color:rgb(255, 81, 81);
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	width:60px;
+	height:60px;
+	display:block;
+}
+
+.floating-btn ul:hover{
+	visibility:visible!important;
+	opacity:1!important;
+}
+
+
+.my-float{
+	font-size:24px;
+	margin-top:18px;
+}
+
+a#menu-share + ul{
+  visibility: hidden;
+}
+
+a#menu-share:hover + ul{
+  visibility: visible;
+  animation: scale-in 0.5s;
+}
+
+a#menu-share i{
+	animation: rotate-in 0.5s;
+}
+
+a#menu-share:hover > i{
+	animation: rotate-out 0.5s;
+}
+
+@keyframes bot-to-top {
+    0%   {bottom:-40px}
+    50%  {bottom:40px}
+  
+
+}
+@keyframes scale-in {
+    from {transform: scale(0);opacity: 0;}
+    to {transform: scale(1);opacity: 1;}
+}
+
+.shake-little {
+    display: inherit;
+    transform-origin: center center; }
+  
+  .shake-freeze,
+  .shake-constant.shake-constant--hover:hover,
+  .shake-trigger:hover .shake-constant.shake-constant--hover {
+    animation-play-state: paused; }
+  
+  .shake-freeze:hover,
+  .shake-trigger:hover .shake-freeze, .shake-little:hover,
+  .shake-trigger:hover .shake-little {
+    animation-play-state: running; }
+  
+  @keyframes shake-little {
+    2% {
+      transform: translate(0px, 1px) rotate(0.5deg); }
+    4% {
+      transform: translate(0px, 1px) rotate(0.5deg); }
+    6% {
+      transform: translate(1px, 1px) rotate(0.5deg); }
+    8% {
+      transform: translate(0px, 0px) rotate(0.5deg); }
+    10% {
+      transform: translate(1px, 0px) rotate(0.5deg); }
+    12% {
+      transform: translate(1px, 1px) rotate(0.5deg); }
+    14% {
+      transform: translate(0px, 0px) rotate(0.5deg); }
+    16% {
+      transform: translate(1px, 0px) rotate(0.5deg); }
+    18% {
+      transform: translate(0px, 1px) rotate(0.5deg); }
+    20% {
+      transform: translate(0px, 1px) rotate(0.5deg); }
+    22% {
+      transform: translate(1px, 1px) rotate(0.5deg); }
+    24% {
+      transform: translate(0px, 1px) rotate(0.5deg); }
+    26% {
+      transform: translate(0px, 0px) rotate(0.5deg); }
+    28% {
+      transform: translate(1px, 0px) rotate(0.5deg); }
+    30% {
+      transform: translate(1px, 0px) rotate(0.5deg); }
+    32% {
+      transform: translate(0px, 1px) rotate(0.5deg); }
+    34% {
+      transform: translate(0px, 1px) rotate(0.5deg); }
+    36% {
+      transform: translate(0px, 0px) rotate(0.5deg); }
+    38% {
+      transform: translate(1px, 1px) rotate(0.5deg); }
+    40% {
+      transform: translate(1px, 0px) rotate(0.5deg); }
+    42% {
+      transform: translate(0px, 1px) rotate(0.5deg); }
+    44% {
+      transform: translate(0px, 1px) rotate(0.5deg); }
+    46% {
+      transform: translate(0px, 0px) rotate(0.5deg); }
+    48% {
+      transform: translate(0px, 1px) rotate(0.5deg); }
+    50% {
+      transform: translate(0px, 1px) rotate(0.5deg); }
+    52% {
+      transform: translate(1px, 1px) rotate(0.5deg); }
+    54% {
+      transform: translate(0px, 0px) rotate(0.5deg); }
+    56% {
+      transform: translate(0px, 0px) rotate(0.5deg); }
+    58% {
+      transform: translate(0px, 0px) rotate(0.5deg); }
+    60% {
+      transform: translate(0px, 1px) rotate(0.5deg); }
+    62% {
+      transform: translate(0px, 0px) rotate(0.5deg); }
+    64% {
+      transform: translate(1px, 0px) rotate(0.5deg); }
+    66% {
+      transform: translate(0px, 1px) rotate(0.5deg); }
+    68% {
+      transform: translate(0px, 0px) rotate(0.5deg); }
+    70% {
+      transform: translate(1px, 1px) rotate(0.5deg); }
+    72% {
+      transform: translate(1px, 0px) rotate(0.5deg); }
+    74% {
+      transform: translate(0px, 1px) rotate(0.5deg); }
+    76% {
+      transform: translate(0px, 1px) rotate(0.5deg); }
+    78% {
+      transform: translate(1px, 0px) rotate(0.5deg); }
+    80% {
+      transform: translate(1px, 0px) rotate(0.5deg); }
+    82% {
+      transform: translate(0px, 0px) rotate(0.5deg); }
+    84% {
+      transform: translate(1px, 0px) rotate(0.5deg); }
+    86% {
+      transform: translate(0px, 0px) rotate(0.5deg); }
+    88% {
+      transform: translate(0px, 0px) rotate(0.5deg); }
+    90% {
+      transform: translate(1px, 1px) rotate(0.5deg); }
+    92% {
+      transform: translate(1px, 1px) rotate(0.5deg); }
+    94% {
+      transform: translate(1px, 0px) rotate(0.5deg); }
+    96% {
+      transform: translate(1px, 0px) rotate(0.5deg); }
+    98% {
+      transform: translate(0px, 0px) rotate(0.5deg); }
+    0%, 100% {
+      transform: translate(0, 0) rotate(0); } }
+  
+  .shake-little:hover,
+  .shake-trigger:hover .shake-little, .shake-little.shake-freeze, .shake-little.shake-constant {
+    animation-name: shake-little;
+    animation-duration: 5000ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite; }
+
+    

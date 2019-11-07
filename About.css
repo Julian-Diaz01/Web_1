@@ -1,0 +1,131 @@
+body{
+  min-height:100%; 
+  background-image: url();
+
+}
+.body-div {
+  margin: 0;
+  padding: 0;
+
+  background: url("/images/Julian-b4.png") 
+  center center;
+  background-size: cover;
+  animation: moveUp 1.2s ease-out;
+ 
+}
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.pos {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.mountain1 {
+  background: url("/images/Julian-b6.png") 
+  center center;
+  
+  transform: scale3d(1.1, 1.1, 1.1);
+  opacity: 0.8;
+  animation: moveX 50s infinite;
+  animation: moveX 50s infinite;
+ 
+  animation-fill-mode: forwards;  
+  height: 875px;
+  width: 3702px;
+}
+.mountain2 {
+  background: url("/images/Julian-b5.png") 
+  center center;
+  background-size: cover;
+  transform: scale3d(1.3, 1.3, 1.3);
+
+  animation: scaler 1.2s ease-out;
+  animation-fill-mode: forwards;
+  
+}
+.profile{
+  position:absolute;
+  top: 010%;
+  left: 5%;
+  height: 120%;
+  width: 30%;
+ border:  200px;
+  background-color: rgba(255, 255, 255, 1);
+  font-family: 'Hepta Slab', serif;
+  text-align: justify;
+  flex: 1 0 auto;
+  
+}
+footer {
+  position: relative;
+  bottom: -5%;
+  width: 100%;
+ }
+@media screen and (max-width: 1000px) { /* tablet */ 
+  .profile{
+    position:absolute;
+    height: 58%;
+    width: 80%;
+   top: 80%;
+   border-radius: 20px;
+   
+  }
+  footer {
+    bottom: -20%;
+    width: 100%;
+   }
+ 
+}
+
+@media screen and (max-width: 800px) { /* mobile */ 
+  .profile{
+    height: 73%;
+  }
+  footer {
+    bottom: -40%;
+    width: 100%;
+   }
+}
+@media screen and (max-width: 600px) { /* mobile */ 
+  .profile{
+    height: 80%;
+    
+  }
+  footer {
+    bottom: -60%;
+    width: 100%;
+   }
+ 
+}
+@keyframes moveUp {
+  0% {
+    transform: scale3d(1.1, 01.1, 1.1);
+    opacity: 0.1; }
+  100% {
+    transform: scale3d(1, 1, 1);
+    opacity: 1;
+  }
+  
+}
+@keyframes scaler {
+  100% {
+    transform: scale3d(1, 1, 1);
+    opacity: 1;
+  }
+}
+
+@keyframes moveX {
+  0% {
+    transform: translate(-3000px, 0px) ; }
+
+  100% {
+    transform: translate(900px, 0px); }
+
+}
